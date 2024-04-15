@@ -11,6 +11,14 @@
 # Architecture Diagram
 ![Architecture Diagram](./ArchitectureDiagram/TelecomDataIngestionArchitectureDiagram.png?raw=true)
 
+# Architecture Diagram Steps
+1. First we will create the source bucket into which data will be dumped and the target bucket where the data will be loaded.
+2. Glue crawlers will be run to get the metadata of the data sources.
+3. Glue data catalogs will be created.
+4. Glue ETL will be performed and required transformations will be performed.
+5. Data gets stored into the target.
+6. Data will be used by downstream for analysis or visualization.
+
 # Steps to build the pipeline
 1. Create an s3 bucket to store the data from the upstream source.
 ![Step 1 Image](./Images/1_Created_bucket.png?raw=true)

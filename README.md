@@ -9,7 +9,7 @@
 * The main motive behind the project is to understand building an end-to-end data pipeline (extract, transform, load, and visualize) using AWS services.
 
 # Architecture Diagram
-![Architecture Diagram](./ArchitectureDiagram/Telecom Data Ingestion Architecture Diagram.png?raw=true)
+![Architecture Diagram](./ArchitectureDiagram/TelecomDataIngestionArchitectureDiagram.png?raw=true)
 
 # Steps to build the pipeline
 1. Create an s3 bucket to store the data from the upstream source.
